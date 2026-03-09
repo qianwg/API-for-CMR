@@ -100,8 +100,8 @@ def index():
             prompt = "Your cardiac function is good, resulting in a lower risk of stroke"
 
         import json
-        
-        client = OpenAI(api_key="sk-b7bce0c106314df0af233d8f7d59b2d1", base_url="https://api.deepseek.com")
+        # type your API key here
+        client = OpenAI(api_key="your API key", base_url="https://api.deepseek.com")
         print("1--------")
         #print(response.choices[0].message.content)
 
